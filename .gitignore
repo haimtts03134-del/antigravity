@@ -1,0 +1,36 @@
+# Security & Environment Variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+credentials*.json
+
+# Database & Data files (Strict PII & Customer Data Protection)
+*.csv
+*.xlsx
+*.xls
+*.sql
+*.dump
+*.bak
+*.sqlite
+*.db
+*.jsonl
+
+# Logs & Temporary Files
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node & Package Managers
+node_modules/
+dist/
+build/
